@@ -42,6 +42,15 @@ replace_play_link ()
 }
 
 
+insert_thumbnail(){
+  fname="$1"
+  bilibili_patt="bvid=$2"
+  url="https://www.bilibili.com/video/$2"
+  insert_at=`grep -niro $bilibili_patt $fname -b10  | grep "text/html" | cut -d- -f 2`
+  python create_jpg_file.py $url
+  sed -i.back_4 "${insert_at}r this_" $fname
+}
+
 replace_src_link ()
 {
   fname=$1
@@ -52,7 +61,7 @@ replace_src_link ()
   yt_patt="www\.youtube\.com/embed/${youtube_id}"
   bili_patt="player\.bilibili\.com/player\.html\?bvid=${bilibili_id}"
 
-  sed -i.back_3 "s,${yt_patt},${bili_patt}," "$fname"
+  sed -i.back_5 "s,${yt_patt},${bili_patt}," "$fname"
 }
 
 
@@ -88,7 +97,7 @@ while read vid; do # Go through each line of video_ids.txt
     replace_iframe_code $fname $youtube_id $bilibili_id
     replace_src_link $fname $youtube_id $bilibili_id
     replace_play_link $fname $youtube_id $bilibili_id
-
+    insert_thumbnail $fname $bilibili_id
     
     # save the files for later
     echo "$fname" >> files_to_reprocess.txt
