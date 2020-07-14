@@ -21,7 +21,7 @@ Tutorials can take anywhere between 1-2 weeks to prepare, so start as early as p
 
 1. Read the 1-pagers for the tutorials you are in charge of: (shared google drive: NMA > curriculum & content > [One-pare Topic/ Lecture summaries/](https://drive.google.com/drive/folders/1mrXdVGgPqb-NVVLZj3E0FWETp9z-L9I-))
 2. Meet with the day organizer to discuss the tutorial lecture content and what students will be asked to do in tutorials. At this stage, it will be essential to decide what you want each exercise of each tutorial to do.
-3. You familiarize yourself with existing tutorial templates to understand the format of [NMA tutorials](https://github.com/NeuromatchAcademy/course-content/tree/master/tutorials)
+3. You familiarize yourself with existing tutorial templates to understand the format of [NMA tutorials](https://github.com/erlichlab/course-content/tree/master/tutorials)
 4. Start with the coding of the tutorials (Only when you have finalised step 2! otherwise you'll have to redo a bunch of tutorials!)
    - This is important to minimise the amount of adjustment and doing/redoing required at a later stage. Iterating over step 2 in much detail is much more efficient than: creating code, then deleting whole exercises/tutorials and recoding new ones from scratch) if there is a mismatch.
 5. Reiterate and refine step 4 for small adjustments.
@@ -30,7 +30,7 @@ Tutorials can take anywhere between 1-2 weeks to prepare, so start as early as p
 
 Markdown headings (`#`, `##`, `###`, etc.) can be used to automatically create headings for tutorials, objectives, and exercises, respectively. Use `---` in markdown to separate different exercises/sections.
 
-Example tutorials are available at [NMA github course-content/tutorials](https://github.com/NeuromatchAcademy/course-content/tree/master/tutorials).
+Example tutorials are available at [NMA github course-content/tutorials](https://github.com/erlichlab/course-content/tree/master/tutorials).
 
 For each tutorial:
 1. Import all necessary libraries, in a separate code cell at the top of the tutorial. We received feedback that students want to see the library imports, so don't hide this cell or give it an `@title` since this squashes the code cell.
@@ -44,7 +44,7 @@ For each tutorial:
       plt.rcParams.update({'figure.figsize': (fig_w, fig_h)})
       %config InlineBackend.figure_format = 'retina'
 
-   - check the notebook [`Installing Python libraries.ipynb`](https://github.com/NeuromatchAcademy/course-content/blob/master/tutorials/utils/Installing%20Python%20libraries.ipynb) on how to install additional libraries or your custom library
+   - check the notebook [`Installing Python libraries.ipynb`](https://github.com/erlichlab/course-content/blob/master/tutorials/utils/Installing%20Python%20libraries.ipynb) on how to install additional libraries or your custom library
 2. Describe the tutorial objectives using 2-3 sentences + bullet points
 3. Start with a soft landing exercise to make students feel confident and relaxed.
 4. Split core tutorial content into additional 2-4 exercises. Each exercise should have:
@@ -58,7 +58,7 @@ For each tutorial:
    - (optional) Include hints in the code skeleton to highlight where the students should complete the code and what Python functions they could use to complete it (e.g.: '# Hint: use the function `np.exp()` to exponentiate' )
    - (optional) A sample output of what the correct output of the exercise should look like. To prevent students from focussing on reproducing exactly the plots/sample outputs rather than understanding the core concepts, we provide them with the plotting functions and use the XKCD style for the expected sample outputs.
 5. Create solutions for each excercise in the tutorial. This will allow the technical team to check the tutorials, and it will facilitate training for the TAs before the summer school.
-   - See example [here](https://github.com/NeuromatchAcademy/course-content/blob/master/tutorials/demo/Exercise_With_Solution.ipynb)
+   - See example [here](https://github.com/erlichlab/course-content/blob/master/tutorials/demo/Exercise_With_Solution.ipynb)
    - The solution should be written in a separate cell. The first line of the solution cell should begin with a comment that starts `# to_remove`. This comment will signal that the cell should be removed from the student version of the tutorial.
     - Make sure that later content doesn't depend on variables defined in these solution cells or on the output of the completed functions. Where necessary, you can "comment-out" such references and make it clear that the student should uncomment them once the exercise is complete. But it is better for the exercises to be self-contained.
 6. Tutorial notebooks should be able to execute from top-to-bottom without error, including after the solution cells are removed. This allows us to automatically enforce a minimum standard of correctness.
@@ -70,11 +70,11 @@ There is also a collection of self-contained [Tutorial demos](./demos) illustrat
 
 ## Reviewing
 
-* Talk to your day organizer before submitting tutorials to the [NMA course-content github repo](https://github.com/NeuromatchAcademy/course-content/)
-* Once approved, submit tutorials to [the NMA github](https://github.com/NeuromatchAcademy/course-content/tree/master/tutorials) so that the technical team can test the tutorials and check for standardization across all NMA tutorials.
-* This is [the guide we use to review tutorials](https://github.com/NeuromatchAcademy/course-content/blob/master/tutorials/reviewing-tutorials.md). We try to enforce a consistent style across notebooks so it's easy for students to jump in. We try to minimize the burden on the tutorial authors. You're the stars! 
+* Talk to your day organizer before submitting tutorials to the [NMA course-content github repo](https://github.com/erlichlab/course-content/)
+* Once approved, submit tutorials to [the NMA github](https://github.com/erlichlab/course-content/tree/master/tutorials) so that the technical team can test the tutorials and check for standardization across all NMA tutorials.
+* This is [the guide we use to review tutorials](https://github.com/erlichlab/course-content/blob/master/tutorials/reviewing-tutorials.md). We try to enforce a consistent style across notebooks so it's easy for students to jump in. We try to minimize the burden on the tutorial authors. You're the stars! 
 * [We use a branch-pull-request workflow for content](https://guides.github.com/introduction/flow/). You stage everything on your branch - you can mess up this branch as much as you want, it's 100% yours. Then when you're ready, you create a pull request to ask to merge your branch with the master branch (the stuff everybody sees). Add Marco and Patrick as reviewers. They'll review your notebooks, make comments, and after a couple of iterations, they will merge onto master.
 
 ## Colab & Github workflow
-When you have final version of Colab, we'll pull into Github following this [workflow](https://github.com/NeuromatchAcademy/course-content/blob/master/tutorials/reviewing-tutorials.md#workflow-for-incorporation-into-the-github-repostory)
+When you have final version of Colab, we'll pull into Github following this [workflow](https://github.com/erlichlab/course-content/blob/master/tutorials/reviewing-tutorials.md#workflow-for-incorporation-into-the-github-repostory)
 

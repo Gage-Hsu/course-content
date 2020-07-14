@@ -15,11 +15,11 @@ Content reviewers follow 3 to 5 days of tutorials, and at least two reviewers se
 These are the main areas for alignment and consistency: 
 
 * Learning objectives and tutorial content from [One-page Topic/Lecture summaries](https://drive.google.com/drive/folders/1mrXdVGgPqb-NVVLZj3E0FWETp9z-L9I-)
-* Guidelines for [Writing tutorials for Neuromatch Academy (NMA)](https://github.com/NeuromatchAcademy/course-content/blob/master/tutorials/writing-tutorials.md)
-* Python guidelines and best practices from [Python-standards](https://github.com/NeuromatchAcademy/course-content/blob/master/tutorials/python-standards.md)
+* Guidelines for [Writing tutorials for Neuromatch Academy (NMA)](https://github.com/erlichlab/course-content/blob/master/tutorials/writing-tutorials.md)
+* Python guidelines and best practices from [Python-standards](https://github.com/erlichlab/course-content/blob/master/tutorials/python-standards.md)
 * Consistent math notation and formatting defined in [Standardized nomenclature, math, fonts](https://docs.google.com/document/d/1Z3Bc0oQA4a-y3xJU2mtIDMAOen1SO8AmUjkc3_xFOPM/edit)
 * Self-consistency: Each slide deck and notebook stands on its own, except for dependencies from other days
-* The Github repository has several demos of [example tutorial components](https://github.com/NeuromatchAcademy/course-content/tree/master/tutorials/demo)
+* The Github repository has several demos of [example tutorial components](https://github.com/erlichlab/course-content/tree/master/tutorials/demo)
 
 ## Content review workflow
 
@@ -32,7 +32,7 @@ See [Content Review Sign-Up](https://docs.google.com/spreadsheets/d/1LtLEk0H7gkR
 
 ## Workflow for incorporation into the Github repostory
 
-Most of the notebook preparation is coordinated on Google Drive by making copies and sharing/tracking links. But after review and waxing, notebooks should be incorporated into the [NMA Github Repository](https://github.com/NeuromatchAcademy/course-content). Github is the canonical source for the version of the tutorials that students will actually see, so it is important to get this process right.
+Most of the notebook preparation is coordinated on Google Drive by making copies and sharing/tracking links. But after review and waxing, notebooks should be incorporated into the [NMA Github Repository](https://github.com/erlichlab/course-content). Github is the canonical source for the version of the tutorials that students will actually see, so it is important to get this process right.
 
 The process involves both automated and manual quality control. Here is a guide to the basic steps you should follow. If you are new to the process, it is best to communicate on Slack about what you are doing (`@Michael Waskom` is the best reference).
 
@@ -51,7 +51,7 @@ While it's helpful to have multiple people handle the work of merging the tutori
   - Write out the complete file path, using the standardized template:
     - `tutorials/W{x}D{y}_{Topic}/WxDy_Tutorial{i}.ipynb`
     - Replace `{x}`, `{y}`, `{Topic}` and `{i}`
-    - See the [tutorials directory](https://github.com/NeuromatchAcademy/course-content/tree/master/tutorials) for a list of names to use for `{Topic}`
+    - See the [tutorials directory](https://github.com/erlichlab/course-content/tree/master/tutorials) for a list of names to use for `{Topic}`
     - An example filename will look like this: `tutorials/W1D5_DimensionalityReduction/W1D5_Tutorial3.ipynb`
     - Don't copy the filename from a rich text display (e.g. the Github UI), because mixing unicode and ASCII can produce duplicate files. Copying the path from the URL bar works.
   - Make sure that "Include a link to Colaboratory" remains checked.
