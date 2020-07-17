@@ -4,6 +4,8 @@
 
 [W1D1](#w1d1---model-types) | [W1D2](#w1d2---modeling-practice) | [W1D3](#w1d3---model-fitting) | [W1D4](#w1d4---machine-learning) | [W1D5](#w1d5---dimensionality-reduction) | [W2D1](#w2d1---bayesian-statistics) | [W2D2](#w2d2---linear-systems) | [W2D3](#w2d3---decision-making) | [W2D4](#w2d4---optimal-control) | [W2D5](#w2d5---reinforcement-learning) | [W3D1](#w3d1---real-neurons) | [W3D2](#w3d2---dynamic-networks) | [W3D3](#w3d3---network-causality) | [W3D4](#w3d4---deep-learning1) | [W3D5](#w3d5---deep-learning2)
 
+*Warning:* The 'render with NBViewer' buttons may show outdated content.
+
 ## W0D1 - Python Workshop1
 
 [YouTube Playlist](https://www.youtube.com/playlist?list=PLkBQOLLbi18M8aIPAL3n2q7D_AbbuPPtM)
@@ -104,6 +106,9 @@ Slides: [Intro](https://mfr.ca-1.osf.io/render?url=https://osf.io/khbwu/?direct%
 ## W2D1 - Bayesian Statistics
 
 [YouTube Playlist](https://www.youtube.com/playlist?list=PLkBQOLLbi18NmYKYd6AjspUPnlys9R3R0)
+
+Slides: [Tutorials](https://mfr.ca-1.osf.io/render?url=https://osf.io/sqnd5/?direct%26mode=render%26action=download%26mode=render) | [Reading](https://mfr.ca-1.osf.io/render?url=https://osf.io/3sqpy/?direct%26mode=render%26action=download%26mode=render)
+
 |   | Run | View |
 | - | --- | ---- |
 | Tutorial 1 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NeuromatchAcademy/course-content/blob/master/tutorials/W2D1_BayesianStatistics/student/W2D1_Tutorial1.ipynb) | [![View the notebook](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/NeuromatchAcademy/course-content/blob/master/tutorials/W2D1_BayesianStatistics/student/W2D1_Tutorial1.ipynb?flush_cache=true) |
@@ -117,6 +122,9 @@ Slides: [Intro](https://mfr.ca-1.osf.io/render?url=https://osf.io/khbwu/?direct%
 ## W2D2 - Linear Systems
 
 [YouTube Playlist](https://www.youtube.com/playlist?list=PLkBQOLLbi18NamPEHJnnljSC-4hWGvsJK)
+
+Slides: [Intro](https://mfr.ca-1.osf.io/render?url=https://osf.io/vx5ny/?direct%26mode=render%26action=download%26mode=render) | [Tutorials](https://mfr.ca-1.osf.io/render?url=https://osf.io/snv4m/?direct%26mode=render%26action=download%26mode=render) | [Outro](https://mfr.ca-1.osf.io/render?url=https://osf.io/dx6je/?direct%26mode=render%26action=download%26mode=render) | [Reading](https://mfr.ca-1.osf.io/render?url=https://osf.io/dcrnj/?direct%26mode=render%26action=download%26mode=render)
+
 |   | Run | View |
 | - | --- | ---- |
 | Tutorial 1 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NeuromatchAcademy/course-content/blob/master/tutorials/W2D2_LinearSystems/student/W2D2_Tutorial1.ipynb) | [![View the notebook](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/NeuromatchAcademy/course-content/blob/master/tutorials/W2D2_LinearSystems/student/W2D2_Tutorial1.ipynb?flush_cache=true) |
