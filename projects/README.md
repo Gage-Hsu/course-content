@@ -88,7 +88,7 @@ publication-worthy project! All groups must finish their projects by the end of 
 
 ---
 
-The NMA students are grouped into Pods, which are run by a TA. The Pods are located in a zone and with a grouping within that zone based on their local timezone. The NMA projects are divided into two components. In week one, you will be assigned to a Pod and will help the students within the Pod refine their project ideas. You should look over the [topics]((https://www.bilibili.com/video/BV1vf4y1R7N1))) and try to help them select approaches, concepts and tools to help them answer their scientific question from the curriculum content. We have provided curated datasets and a selection of [project ideas](https://docs.google.com/presentation/d/1WAHfJcBPM4rmwwvreAAS92sRYtltJRwklxH-82NzCYo/edit#slide=id.g8225ef52cb_0_10) provided by the Mentors. By the end of week one, the students should have selected a project that is coherent and can be applied to a dataset (unless purely theoretical/computational) Normally, this should be one of the NMA datasets, but if you feel the students have a clear, just ocoherent plan that is achievable in two weeks working 2h a day, they can use other public datasets.
+The NMA students are grouped into Pods, which are run by a TA. The Pods are located in a zone and with a grouping within that zone based on their local timezone. The NMA projects are divided into two components. In week one, you will be assigned to a Pod and will help the students within the Pod refine their project ideas. You should look over the [topics]((https://www.bilibili.com/video/BV1vf4y1R7N1))) and try to help them select approaches, concepts and tools to help them answer their scientific question from the curriculum content. We have provided curated datasets and a selection of [project ideas](https://onedrive.live.com/view.aspx?resid=AFB57A819FAA8A6B!300&ithint=file%2cpptx&authkey=!AE9LZemyejs_2cg) provided by the Mentors. By the end of week one, the students should have selected a project that is coherent and can be applied to a dataset (unless purely theoretical/computational) Normally, this should be one of the NMA datasets, but if you feel the students have a clear, just ocoherent plan that is achievable in two weeks working 2h a day, they can use other public datasets.
   
 In weeks two and three, you will be assigned to specific projects, matched to your general area of research. Your goal in weeks two and three is to help the students through the process of analyzing data from datasets. The students value the discussion and interactions with Mentors, we would like you to be open to general discussions about science, but you should also ensure the projects are on track.
 ## Links for project introductory videos
@@ -106,7 +106,7 @@ In weeks two and three, you will be assigned to specific projects, matched to yo
 ## Links for project slides/documents
 - [Project Instruction](https://mfr.ca-1.osf.io/render?url=https://osf.io/7frh3/?direct%26mode=render%26action=download%26mode=render)
 - [Possible Project Proposals](https://mfr.ca-1.osf.io/render?url=https://osf.io/9j38s/?direct%26mode=render%26action=download%26mode=render)
-- [Dataset Overview](https://docs.google.com/document/d/1_Cam97RDwfQofVSoQb-r9o4e2z3Jc4DdkNUSg6fDxjA/edit?usp=sharing)
+- [Dataset Overview](https://onedrive.live.com/view.aspx?resid=AFB57A819FAA8A6B!301&ithint=file%2cdocx&authkey=!AGgRJWXw5BIN_Hg)
 
 ## Data set notebooks
 
