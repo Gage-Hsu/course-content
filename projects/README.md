@@ -88,20 +88,20 @@ publication-worthy project! All groups must finish their projects by the end of 
 
 ---
 
-The NMA students are grouped into Pods, which are run by a TA. The Pods are located in a zone and with a grouping within that zone based on their local timezone. The NMA projects are divided into two components. In week one, you will be assigned to a Pod and will help the students within the Pod refine their project ideas. You should look over the [topics](https://github.com/erlichlab/course-content) being covered in the summer school (with an [introduction video](https://youtu.be/T1VSYU-H8-Y)) and try to help them select approaches, concepts and tools to help them answer their scientific question from the curriculum content. We have provided curated datasets and a selection of [project ideas](https://docs.google.com/presentation/d/1WAHfJcBPM4rmwwvreAAS92sRYtltJRwklxH-82NzCYo/edit#slide=id.g8225ef52cb_0_10) provided by the Mentors. By the end of week one, the students should have selected a project that is coherent and can be applied to a dataset (unless purely theoretical/computational) Normally, this should be one of the NMA datasets, but if you feel the students have a clear, just ocoherent plan that is achievable in two weeks working 2h a day, they can use other public datasets.
+The NMA students are grouped into Pods, which are run by a TA. The Pods are located in a zone and with a grouping within that zone based on their local timezone. The NMA projects are divided into two components. In week one, you will be assigned to a Pod and will help the students within the Pod refine their project ideas. You should look over the [topics]((https://www.bilibili.com/video/BV1vf4y1R7N1))) and try to help them select approaches, concepts and tools to help them answer their scientific question from the curriculum content. We have provided curated datasets and a selection of [project ideas](https://docs.google.com/presentation/d/1WAHfJcBPM4rmwwvreAAS92sRYtltJRwklxH-82NzCYo/edit#slide=id.g8225ef52cb_0_10) provided by the Mentors. By the end of week one, the students should have selected a project that is coherent and can be applied to a dataset (unless purely theoretical/computational) Normally, this should be one of the NMA datasets, but if you feel the students have a clear, just ocoherent plan that is achievable in two weeks working 2h a day, they can use other public datasets.
   
 In weeks two and three, you will be assigned to specific projects, matched to your general area of research. Your goal in weeks two and three is to help the students through the process of analyzing data from datasets. The students value the discussion and interactions with Mentors, we would like you to be open to general discussions about science, but you should also ensure the projects are on track.
 ## Links for project introductory videos
-- [Projects Intro](https://youtu.be/fNOxmO1Hq3Y)
-- [Curriculum Overview](https://youtu.be/T1VSYU-H8-Y)
-- [Curated Datasets](https://www.youtube.com/playlist?list=PLkBQOLLbi18ODTckxhgah98JloMLXt4oF)
-  * [Stringer Dataset](https://youtu.be/78GSgf6Dkkk)
-  * [Steinmetz Dataset](https://youtu.be/WXn4-FpVaOo)
-  * [Kay/Gallant Dataset](https://youtu.be/LdJkLyw4yzg)
-  * [HCP Dataset](https://youtu.be/iOCcY0QFMS4)
-  * [IBL Dataset](https://youtu.be/NofrFH8FRZU)
+- [Projects Intro](https://space.bilibili.com/534358980/channel/detail?cid=139661)
+- [Curriculum Overview]((https://www.bilibili.com/video/BV1vf4y1R7N1))
+- Curated Datasets
+  * [Stringer Dataset]((https://www.bilibili.com/video/BV17g4y1i7zd))
+  * [Steinmetz Dataset]((https://www.bilibili.com/video/BV1iz4y1D7vK))
+  * [Kay/Gallant Dataset]((https://www.bilibili.com/video/BV11K4y1s7A4))
+  * [HCP Dataset]((https://www.bilibili.com/video/BV1pZ4y1u7FE))
+  * [IBL Dataset]((https://www.bilibili.com/video/BV14p4y1S72d))
 
-- [Brainstorming Example](https://youtu.be/H6rSlZzlrgQ)
+- [Brainstorming Example]((https://www.bilibili.com/video/BV1vV41167ji))
 
 ## Links for project slides/documents
 - [Project Instruction](https://mfr.ca-1.osf.io/render?url=https://osf.io/7frh3/?direct%26mode=render%26action=download%26mode=render)
