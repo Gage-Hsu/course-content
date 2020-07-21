@@ -58,7 +58,15 @@ replace_src_link ()
 
 
 # Get the link map from google sheets using this R script.
+rm -f video_ids.txt
 Rscript make_video_lists.R
+
+if [[ ! ( -s video_ids.txt ) ]]; then
+  echo "did you forget to activate nma?"
+  exit 1
+fi
+
+
 
 rm -f files_to_reprocess.txt # delete the old file if it is there.
 touch files_to_reprocess.txt # make an empty file to avoid errors.
