@@ -42,18 +42,6 @@ replace_play_link ()
 }
 
 
-replace_src_link ()
-{
-  fname=$1
-  youtube_id=$2
-  bilibili_id=$3
-  #        "            src=\"https://www.youtube.com/embed/wbZ60vdnoqw?fs=1\"\n",
-  #bili_src='"            src=\"https://player.bilibili.com/player.html?bvid='"$bilibili_id"'&page=1?fs=1\"\\n",'
-  yt_patt="www\.youtube\.com/embed/${youtube_id}"
-  bili_patt="player\.bilibili\.com/player\.html\?bvid=${bilibili_id}"
-
-  sed -i.back_3 "s,${yt_patt},${bili_patt}," "$fname"
-}
 
 
 
@@ -81,7 +69,7 @@ while read vid; do # Go through each line of video_ids.txt
   
   echo "Looking for youtube $youtube_id"
   search_dir=`ls ../tutorials | grep W${week}D${day}`
-  find ../tutorials/${search_dir}/ -name "W${week}D${day}*ipynb" -type f -exec grep -l "YouTubeVideo(id.*${youtube_id}" {} \; > files_to_change
+  find ../tutorials/${search_dir}/ -name "W${week}D${day}*ipynb" -type f -exec grep -l "Video available.*${youtube_id}" {} \; > files_to_change
   # Use maxdepth to avoid processing student notebooks.
 
    if [[ -s files_to_change ]]; then
@@ -93,8 +81,6 @@ while read vid; do # Go through each line of video_ids.txt
     echo "Found $youtube_id in $f2c"
     # fname=`head -1 files_to_change` # FOR TESTING 
     fname="$f2c"
-    replace_iframe_code $fname $youtube_id $bilibili_id
-    replace_src_link $fname $youtube_id $bilibili_id
     replace_play_link $fname $youtube_id $bilibili_id
 
     
@@ -105,8 +91,6 @@ while read vid; do # Go through each line of video_ids.txt
   done <files_to_change 
 
 done <video_ids.txt
-
-./replace_github_links.sh
 
 # Only need to rerun each notebook once!
 cat files_to_reprocess.txt | sort | uniq > unique_files
