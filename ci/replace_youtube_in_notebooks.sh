@@ -36,7 +36,7 @@ replace_play_link ()
   fname=$1
   youtube_id=$2
   bilibili_id=$3
-  yt_patt="Video available at .*/${youtube_id}"
+  yt_patt="Video available at .*${youtube_id}"
   bili_patt="Video available at https://www\.bilibili\.com/video/${bilibili_id}"
   sed -i.back_3 "s,${yt_patt},${bili_patt}," "$fname"
 }
