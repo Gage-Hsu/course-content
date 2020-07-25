@@ -18,5 +18,5 @@ video_crew_url = "https://docs.google.com/spreadsheets/d/1vx2hxDEvmw23P5niUxTjeu
 g4df = read_sheet(video_crew_url, sheet = "Real NMA", skip=5)
 linkdf = g4df %>% select(Week, Day, `Bilibili Link`, `YouTube link`) %>% na.omit() %>% 
   mutate(bilibili_id=extract_bili_id(`Bilibili Link`), youtube_id=extract_youtube_id(`YouTube link`)) %>%
-  filter(str_starts(bilibili_id, 'BV'))
+  filter(str_starts(bilibili_id, 'BV|av'))
 write.table(linkdf %>% select(youtube_id, bilibili_id, Week, Day), 'video_ids.txt', quote=F, row.names = F, col.names = F)
