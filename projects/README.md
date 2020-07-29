@@ -116,7 +116,8 @@ In weeks two and three, you will be assigned to specific projects, matched to yo
 ## Links for project slides/documents
 - [Project Instruction](https://mfr.ca-1.osf.io/render?url=https://osf.io/7frh3/?direct%26mode=render%26action=download%26mode=render)
 - [Possible Project Proposals](https://mfr.ca-1.osf.io/render?url=https://osf.io/9j38s/?direct%26mode=render%26action=download%26mode=render)
-- [Dataset Overview](https://onedrive.live.com/view.aspx?resid=AFB57A819FAA8A6B!301&ithint=file%2cdocx&authkey=!AGgRJWXw5BIN_Hg)
+- [Dataset Overview](https://docs.google.com/document/d/1_Cam97RDwfQofVSoQb-r9o4e2z3Jc4DdkNUSg6fDxjA/edit?usp=sharing)
+- [Project Presentation Cover Slide](https://osf.io/ky6fj/download) (click to download)
 
 ## Data set notebooks
 
